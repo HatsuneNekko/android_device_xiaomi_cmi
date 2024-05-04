@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cmi.mk
+    $(LOCAL_DIR)/blaze_cmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_cmi-user \
-    lineage_cmi-userdebug \
-    lineage_cmi-eng
+    blaze_cmi-user \
+    blaze_cmi-userdebug \
+    blaze_cmi-eng
