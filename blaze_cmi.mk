@@ -8,13 +8,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+# Inherit some common miku stuff.
+$(call inherit-product, vendor/miku/config/common_full_phone.mk)
 
 # Inherit from cmi device
 $(call inherit-product, device/xiaomi/cmi/device.mk)
 
-PRODUCT_NAME := blaze_cmi
+PRODUCT_NAME := miku_cmi
 PRODUCT_DEVICE := cmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
@@ -28,8 +28,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Xiaomi/cmi_global/cmi:13/RKQ1.211001.001/V14.0.5.0.TJAMIXM:user/release-keys
 
 
-# Blaze
-BLAZE_MAINTAINER := Luffitys
+# miku
+MIKU_MAINTAINER := Hatsune__Miku_
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_BLUR := true
