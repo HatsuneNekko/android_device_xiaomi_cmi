@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_cmi.mk
+     $(LOCAL_DIR)/miku_cmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_cmi-user \
-    blaze_cmi-userdebug \
-    blaze_cmi-eng
+    miku_cmi-user \
+    miku_cmi-userdebug \
+    miku_cmi-eng
